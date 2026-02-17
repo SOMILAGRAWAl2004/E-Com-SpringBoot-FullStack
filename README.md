@@ -18,6 +18,11 @@ A robust, full-featured e-commerce backend built with Spring Boot 3.5.4, featuri
 ---
 
 ## 🎯 Project Overview
+# 🛒 E-Com: Spring Boot Backend System
+
+Developed and maintained by Somil Agrawal.
+
+This project demonstrates the implementation of a production-ready e-commerce backend system using Spring Boot, focusing on secure authentication, modular architecture, and scalable REST API design.
 
 This Spring Boot E-Commerce application is designed to provide a comprehensive backend solution for online shopping platforms. It follows industry best practices with a layered architecture (Controller → Service → Repository → Model) and includes security features, error handling, file uploads, and RESTful API endpoints.
 
@@ -99,6 +104,20 @@ This Spring Boot E-Commerce application is designed to provide a comprehensive b
 | **Build Tool** | Maven |
 | **Authentication** | JWT (JSON Web Tokens) |
 | **Testing** | JUnit 5, Spring Boot Test |
+
+🏗️ System Architecture
+
+The application follows a layered architecture:
+
+Controller Layer → Handles HTTP Requests  
+Service Layer → Business Logic  
+Repository Layer → Data Access using JPA  
+Model Layer → Entity Definitions  
+
+Security Flow:
+Client → Authentication API → JWT Generation → 
+Subsequent Requests → JWT Validation Filter → Access Granted
+
 
 ### Dependencies Included:
 - Spring Web
