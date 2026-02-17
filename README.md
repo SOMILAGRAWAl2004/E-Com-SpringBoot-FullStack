@@ -409,6 +409,15 @@ Test classes are located in `src/test/java/com/ecommerce/project/`
 
 ---
 
+🚀 Future Enhancements
+
+- Integration with Payment Gateway (Stripe/Razorpay)
+- Docker containerization for deployment
+- CI/CD pipeline integration
+- Redis caching for performance optimization
+- Frontend integration using React
+- Email notifications for order confirmation
+
 ## 📄 License
 
 This project is provided as-is for educational and commercial use.
